@@ -1,0 +1,176 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: -apple-system, Helvetica, Arial, sans-serif;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #777;
+}
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+.container-fluid {
+    max-width: 100%;
+}
+.row {
+    padding: 20px 20px 0 20px;
+    clear: both;
+}
+
+.box {
+    background-color: #fafafa;
+    -webkit-border-radius:2px;
+    -moz-border-radius:2px;
+    border-radius:2px;
+ -webkit-box-shadow: 0 2px 6px rgba(1,1,1,0.42);
+ -moz-box-shadow: 0 2px 6px rgba(1,1,1,0.42);
+box-shadow: 0 2px 6px rgba(1,1,1,0.42);
+    //border-top: 1px solid #fff;
+    //margin: 0 10px;
+    margin-right: 20px;
+    text-align: center;
+    //height: 5em;
+    //line-height: 5em;
+}
+
+.h-1 {
+    height: 20px;
+}
+.h-2 {
+    height: 40px;
+}
+.h-3 {
+    height: 60px;
+}
+.h-4 {
+    height: 80px;
+}
+
+.l-1 {
+    line-height: 20px;
+}
+.l-2 {
+    line-height: 40px;
+}
+.l-3 {
+    line-height: 60px;
+}
+.l-4 {
+    line-height: 80px;
+}
+
+.col-12-x {
+    width: 100%;
+    float: left;
+}
+.col-12-x.box {
+    width: calc(100%);
+}
+
+
+
+.col-8-x {
+    width: 66.66666%;
+    float: left;
+}
+.col-8-x.box {
+    width: calc(66.66666% - 16.33333px);
+}
+.col-8-x.box:last-child {
+    width: calc(66.66666% - 16.33333px);
+    margin-right: 0;
+}
+.col-8-x.box:first-child {
+    width: calc(66.66666% - 12.33333px);
+    margin-right: 20px;
+}
+
+
+.col-6-x {
+    width: 50%;
+    float: left;
+}
+.col-6-x.box {
+    width: calc(50% - 10px);
+}
+.col-6-x.box:last-child {
+    width: calc(50% - 10px);
+    margin-right: 0;
+}
+
+.col-4-x {
+    width: 33.33333%;
+    float: left;
+}
+.col-4-x.box {
+    width: calc(33.33333% - 13.33333px);
+}
+.col-4-x.box:last-child {
+    width: calc(33.33333% - 13.33333px);
+    margin-right: 0;
+}
+
+
+.col-3-x {
+    width: 25%;
+    float: left;
+}
+.col-3-x.box {
+    width: calc(25% - 15px);
+}
+.col-3-x.box:last-child {
+    width: calc(25% - 15px);
+    margin-right: 0;
+}
+
+.col-2-x {
+    width: 16.66666%;
+    float: left;
+}
+.col-2-x.box {
+    width: calc(16.66666% - 16.66666px);
+}
+.col-2-x.box:last-child {
+    width: calc(16.66666% - 16.66666px);
+    margin-right: 0;
+}
+
+.col-1-x {
+    width: 8.33333%;
+    float: left;
+}
+.col-1-x.box {
+    width: calc(8.33333% - 20px);
+}
+/*  Thanks to Twitter Bootstrap CSS Framework for the Sizes*/
+
+@media (max-width: 33.9em) {
+    .col-12-x {
+        width: 100%;
+        float: left;
+    }
+    .col-6-x {
+        width: 50%;
+        float: left;
+    }
+    .col-4-x {
+        width: 33.3333%;
+        float: left;
+    }
+    .col-3-x {
+        width: 25%;
+        float: left;
+    }
+}
+
+@media (max-width: 47.9em) { ... }
+
+@media (max-width: 61.9em) { ... }
+
+@media (max-width: 74.9em) {
+
+}
